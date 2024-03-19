@@ -1,0 +1,52 @@
+.bar-tab {
+  display: flex;
+  height: 48px;
+  background: #ffffff;
+  line-height: 48px;
+  padding-left: 24px;
+  border-bottom: 1px solid #e8e8e8;
+
+  & > div {
+    width: 66px;
+    margin-right: 50px;
+    text-align: center;
+    cursor: pointer;
+
+    &.sel {
+      border-bottom: 2px solid #8365f6;
+    }
+  }
+}
+
+.page-address {
+  // padding: 0 24px;
+  // background: #ffffff;
+
+  .page__search {
+    padding: 20px 0;
+    border-bottom: 1px solid #e8e8e8;
+  }
+
+  .bar_ope {
+    padding: 10px 0;
+  }
+
+  .dialogForm {
+    /deep/ .el-dialog {
+      width: 600px;
+    }
+
+    /deep/ .el-dialog__body {
+      padding: 30px 50px;
+    }
+  }
+}
+
+::v-deep .kye__body--cell {
+  .cell {
+    -webkit-line-clamp: 2;
+    display: -webkit-box;
+    white-space: initial;
+    -webkit-box-orient: vertical;
+  }
+}

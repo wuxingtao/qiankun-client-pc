@@ -1,0 +1,173 @@
+.vts-list-home{
+    background-color: #f5f7fb;
+    height: 100%;
+    overflow: hidden;
+    .title{
+        height: 40px;
+        font-size: 14px;
+        font-weight: bold;
+        line-height: 44px;
+        color: #333;
+        opacity: 0.9;
+        padding-left: 16px;
+        box-sizing: border-box;
+        background-color: #fff;
+    }
+    .query-form{
+        background-color: #fff;
+        padding-left: 16px;
+        padding-right: 10px;
+        padding-bottom: 8px;
+        box-sizing: border-box;
+        min-width: 1280px;
+
+        .form-item-time /deep/ .el-form-item__content{
+            align-items: center;
+        }
+        /deep/ .el-input {
+            font-size: 12px
+        }
+        .btns{
+            display: flex;
+            align-items: center;
+            height: 40px;
+            min-width: 230px;
+            .open-btn{
+                height: 32px;
+                line-height: 32px;
+                color: #8365F6;
+                cursor: pointer;
+                // padding-left: 40px;
+                // margin-top: 10px;
+                font-size: 12px;
+                margin-right: 10px;
+                .openIcon270{
+                    transform:rotate(270deg);
+                    font-weight: bold;
+                    margin-left: 3px;
+                }
+                .openIcon90{
+                    transform:rotate(90deg);
+                    font-weight: bold;
+                    margin-left: 3px;
+                }
+            }
+            .frist-btn{
+                margin-left: 11px;
+            }
+            .last-btn{
+                margin-left: 11px;
+            }
+        }
+        /deep/ .el-select{
+            width: 100%;
+        }
+        /deep/ .el-range-editor--medium .el-range-separator{
+            line-height: 25px;
+            margin-right: 6px;
+            font-size: 13px;
+        }
+        /deep/ .el-range-editor--medium .el-range__icon{
+            line-height: 25px
+        }
+        /deep/ .el-input__suffix{
+            top: -2px;
+            right: 0px;
+        }
+       
+    }
+    .tab-list{
+        background-color: #fff;
+        padding-left: 16px;
+        box-sizing: border-box;
+        margin-top: 8px;
+        height: 100%;
+        .tab-box{
+            display: flex;
+            transition: transform .3s -webkit-transform .3s;
+            position: relative;
+            border-bottom: 1px solid #F1F1F5;
+            .tabFrist{
+                margin-left: 0 !important;
+            }
+            .tabLast{
+                margin-right: 0 !important;
+            }
+            .is_active{
+                color: #8365f6 !important;
+                font-weight: bold;
+            }
+            .el-tabs__active-bar{
+                width: 56px;
+                transform: translateX(0px);
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                height: 2px;
+                background-color: #8365f6;
+                z-index: 1;
+                transition: transform .3s cubic-bezier(.645,.045,.355,1);
+                list-style: none;
+            }
+            .tab-item{
+                margin: 0 20px;
+                height: 40px;
+               -webkit-box-sizing: border-box;
+                box-sizing: border-box;
+                line-height: 40px;
+                display: inline-block;
+                list-style: none;
+                font-size: 14px;
+                color: #303133;
+                position: relative;
+                cursor: pointer;
+            }
+        }
+        .tab-content{
+            height: 100%;
+            .export{
+                height: 40px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                font-size: 12px;
+                padding-right: 10px;
+                box-sizing: border-box;
+                .exportText{
+                    margin-left: 5px;
+                    color: #8365F6;
+                    cursor: pointer;
+                }
+                .is-select{
+                    font-size: 12px
+                }
+            }
+        }
+          /deep/.el-table__body-wrapper {
+            overflow: auto !important;
+          }
+          /deep/ .el-table__body{
+            overflow-x: auto !important
+          }
+          /deep/ .el-table td {
+            padding: 9px 0;
+            box-sizing: border-box;
+          }
+          /deep/ .el-table__empty-block{
+              width: 100% !important
+          }
+          /deep/ .el-table__empty-block{
+              min-height: auto !important;
+          }
+    }
+    .pagination-box{
+        height: 44px;
+        position: fixed;
+        bottom: 15px;
+        left: 0;
+        width: 100%;
+        background-color: #333;
+    }
+
+   
+}

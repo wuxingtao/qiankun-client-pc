@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>-mockplus-</title>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="运单管理-查看运单资料-回单图片" transform="translate(-1229.000000, -229.000000)" fill="#999999">
+            <g id="标题" transform="translate(176.000000, 109.000000)">
+                <g id="编组-3" transform="translate(601.000000, 112.000000)">
+                    <g id="-mockplus-" transform="translate(452.000000, 4.000000)">
+                        <g id="-mockplus-" transform="translate(0.000000, 4.000000)">
+                            <g id="Group" transform="translate(2.000000, 2.000000)">
+                                <path d="M2.10452457,1.5 L10.8954867,1.5 C11.7816349,1.5 12.5,2.30373342 12.5,3.29518883 C12.5,3.74177163 12.3512262,4.17232104 12.0827291,4.50276517 L7.68723694,9.91237485 C7.09114834,10.6459916 6.07637657,10.7000552 5.42068075,10.0331292 C5.38301186,9.9948151 5.34699408,9.95451698 5.31274964,9.91237153 L0.917279571,4.50276186 C0.321192604,3.76914343 0.369516333,2.63377934 1.02521364,1.96685517 C1.32055937,1.66645252 1.70537685,1.5 2.10452457,1.5 Z" id="Rectangle-2" transform="translate(6.500000, 6.000000) rotate(-270.000000) translate(-6.500000, -6.000000) "></path>
+                                <rect id="Rectangle" x="0" y="0" width="2" height="12" rx="1"></rect>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

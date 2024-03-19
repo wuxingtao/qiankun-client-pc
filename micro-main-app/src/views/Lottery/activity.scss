@@ -1,0 +1,79 @@
+@import './global.scss';
+.page__content{
+  position: absolute;
+  padding-left: vm(75);
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 90%;
+  height: vm(883);
+  display: flex;
+  align-items: flex-end;
+}
+.gift__title{
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: vm(155);
+  font-size: vm(60);
+  font-weight: 600;
+  color: #ffffff;
+  line-height: vm(75);
+  text-align: center;
+}
+.gift__btn{
+  width: vm(338);
+  height: vm(64);
+}
+.page__aside-img{
+  width: vm(1113);
+  height: vm(883);
+  position: relative;
+  .gift__bg{
+    width: 100%;
+    height: 100%;
+  }
+  .gift__img{
+    position: absolute;
+    bottom: vm(80);
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: vm(807);
+    height: vm(477);
+  }
+  img{
+    max-width:100%;
+  }
+}
+.page__right{
+  width: vm(896);
+  height: vm(711);
+  margin-left: vm(-150);
+  border-radius: vm(20);
+  background: linear-gradient(180deg,#ffeac1, #fbc76b);
+}
+.gift__box{
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+}
+.gift__content{
+  margin-left: vm(100);
+  height: 100%;
+  position: relative;
+}
+.gift__btn{
+  position: absolute;
+  bottom: vm(30);
+  margin: auto;
+  left: 0;
+  right: 0;
+}
+
+.code__list{
+  padding-top: vm(80);
+}

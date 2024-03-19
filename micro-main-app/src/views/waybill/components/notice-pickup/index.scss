@@ -1,0 +1,191 @@
+.notice-content--container {
+  .row-info {
+    height: 36px;
+    line-height: 36px;
+    border: 1px solid #f5f5f5;
+    border-radius: 4px;
+    color: #424242;
+    font-weight: bold;
+    padding-left: 16px;
+    margin-bottom: 16px;
+    background: #fdfcff url('../../../../assets/image/waybill/notice-pickup-title.png') no-repeat
+      top right/cover;
+    background-size: auto 100%;
+
+    .height_light {
+      font-style: normal;
+      color: #FF8038;
+    }
+  }
+
+  .now-goodTime {
+    margin-bottom: 16px;
+    color: #333;
+  }
+
+  .img-wrap {
+    text-align: center;
+    margin: 24px 0 0;
+
+    .el-image {
+      margin-bottom: 16px;
+    }
+  }
+
+  /deep/ .public-color {
+    color: #fe743c;
+  }
+
+  .notice-warning {
+    margin-right: 8px;
+  }
+
+  .radio-buttons {
+    padding-left: 20px;
+  }
+
+  /deep/ {
+    .el-form-item {
+      .el-form-item__label {
+        line-height: 14px;
+        padding-bottom: 8px;
+      }
+
+      .el-form-item__error {
+      }
+    }
+
+    .bigCar_tip {
+      line-height: 20px;
+      padding: 0 0 16px 0;
+      color: #666666;
+      font-family: PingFangSC, PingFangSC-Regular;
+    }
+
+    .bigCar_content {
+      padding-bottom: 24px;
+    }
+
+    .history-remark__wrapper {
+      display: flex;
+      .history-label {
+        flex: none;
+        padding: 6px 20px 6px 0;
+        margin-bottom: 12px;
+      }
+      .remark-item__wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        .remark-item {
+          background: #eceff5;
+          box-sizing: border-box;
+          border: 1px solid #dee1e6;
+          border-radius: 2px;
+          padding: 6px 8px;
+          color: #666666;
+          margin: 0 12px 12px 0;
+        }
+      }
+    }
+
+    .goodsTime {
+      display: flex;
+
+      .goodsBatchTimes {
+        //top: 22px;
+        top: 0;
+        left: 5px;
+        position: relative;
+      }
+
+      .hhDate {
+        bottom: 0;
+        position: relative;
+        width: 140px;
+        padding: 0;
+      }
+    }
+
+    .el-checkbox__label {
+      padding-left: 6px !important;
+    }
+
+    .el-col-3 {
+      padding-left: 6px !important;
+    }
+  }
+
+  /deep/ {
+    .el-input__count {
+      bottom: -2px;
+    }
+  }
+}
+
+/deep/ .el-dialog__body .v-tip-container {
+  padding: 2px 12px;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 4px;
+  box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.3);
+  color: #fff;
+  font-size: 14px;
+
+  .v-tip-content {
+    background: transparent;
+    line-height: 1.5;
+  }
+
+  .v-tip-arrows {
+    border-top-color: rgba(0, 0, 0, 0.3);
+  }
+
+  .v-tip-arrows::after {
+    border-top-color: transparent;
+  }
+}
+
+.goods-time-flag {
+  /deep/ .el-radio__input.is-checked + /deep/ .el-radio__label {
+    color: inherit;
+  }
+}
+
+/deep/ {
+  .ky-ui-label {
+    margin-bottom: 20px;
+  }
+
+  .el-input-group__append {
+    border-radius: 0;
+  }
+
+  .el-textarea .el-textarea__inner {
+    padding: 12px;
+  }
+
+  .el-input__count {
+    background: transparent;
+  }
+
+  // .el-form-item__label,
+  // .el-radio__inner,
+  // .el-radio__label,
+  // .el-date-editor--date.el-input__inner,
+  // .el-input__inner,
+  // .el-textarea__inner {
+  //   font-size: 12px !important;
+  // }
+
+  .el-form-item__label {
+    &::before {
+      display: none;
+    }
+
+    &::after {
+      content: '*';
+      color: #f56c6c;
+      margin-left: 4px;
+    }
+  }
+}

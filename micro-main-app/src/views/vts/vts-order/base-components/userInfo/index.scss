@@ -1,0 +1,86 @@
+.userInfo-box{
+    box-sizing: border-box;
+    border-radius: 2px;
+    margin-top: 8px;
+    display: flex;
+    justify-content: space-between;
+    .formInfo{
+        display: flex;
+        justify-content: space-between;
+    }
+    .send-info{
+        // width: 49.5%;
+        padding-left: 20px;
+        padding-right: 10px;
+        background-color: #fff;
+        position: relative;
+        box-sizing: border-box;
+        margin-right: 8px;
+    }
+    .received-info{
+        // width: 49.5%;
+        padding-left: 20px;
+        padding-right: 10px;
+        background-color: #fff;
+        position: relative;
+        box-sizing: border-box;
+    }
+    .address-book{
+        cursor: pointer;
+        position: absolute;
+        right: 0px;
+        font-size: 14px;
+        color: #8365F6;
+        top: 5px;
+        .item{
+            display: flex;
+            align-items: center;
+            height: 28px;
+            padding: 6px;
+            background-color: #f2effe;
+            border: 1px solid #8365f6;
+            border-radius: 4px;
+            box-sizing: border-box;
+            font-size: 12px;
+            .item-icon{
+                width: 13px;
+                margin-right: 2px;
+            }
+        }
+    }
+    .checked{
+        margin-top: 25px;
+        text-align: end;
+        font-size: 12px;
+        /deep/ .el-checkbox__inner{
+            width: 12px;
+            height: 12px;
+        }
+        /deep/ .el-checkbox__label{
+            font-size: 12px !important;
+            padding-left: 5px;
+        }
+        /deep/ .el-checkbox__inner::after{
+            top: 0 !important;
+            left:3px !important;
+        }
+    }
+    /deep/ .el-date-editor{
+        width: 100%
+    }
+    .icon-receiver {
+        color: #7d6aee;
+        font-size: 26px;
+        margin-right: 5px;
+      }
+
+    .userInfo__address__input /deep/ {
+        .el-input__suffix, .el-input__icon.el-icon-circle-close.el-input__clear {
+            width: 15px;
+            right: 0px;
+        }
+    }
+    /deep/ .el-icon-time{
+        display: none;
+    }
+}

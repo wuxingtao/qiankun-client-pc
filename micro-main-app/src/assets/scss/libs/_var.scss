@@ -1,0 +1,133 @@
+$palette: (
+  gray-darker: #333,
+  gray-dark: #666,
+  gray: #999,
+  gray-thin: #919191,
+  gray-medium: #ccc,
+  gray-light: #eee,
+  orange-dark: #f4a21a,
+  orange: #ffbb33,
+  purple-darker: #3d1466,
+  purple-dark: #4f2168,
+  purple: #8365f6,
+  green: #5aa800,
+  red-thin: #f05959,
+  blue-light: #ebeef5,
+  bg: (
+    main: #fff,
+    vice: #3d1466,
+    minor: #3a3249,
+    gray: #f7f8fa,
+  ),
+  color: (
+    main: #3a3249,
+    //rgb(58, 50, 73)
+      vice: #fff,
+    vice-darker: rgba(255, 255, 255, 0.6),
+    vice-dark: rgba(255, 255, 255, 0.3),
+    main-dark: rgba(58, 50, 73, 0.6),
+  ),
+  status: (
+    hover: #ffbb33,
+    box-hover: #5d3c7e,
+  ),
+  border: (
+    dark: rgba(255, 255, 255, 0.1),
+    light: #e8e8e8,
+  ),
+  hint: (
+    emphasize: #d0021b,
+  ),
+);
+
+$font: (
+  family: 'Helvetica Neue,Helvetica,PingFang SC,Hiragino Sans GB,Microsoft YaHei,SimSun,sans-serif',
+  size: (
+    big: 20px,
+    large: 18px,
+    base: 16px,
+    medium: 15px,
+    small: 14px,
+    tiny: 13px,
+    mini: 12px,
+  ),
+  weight: (
+    base: 300,
+    bold: 600,
+  ),
+);
+
+$duration: (
+  transition1: 0.211s,
+  transition2: 0.311s,
+);
+
+$size: (
+  radius: (
+    r1: 3px,
+    r2: 4px,
+  ),
+);
+
+/*
+* 颜色变量 命名：$color-颜色值
+*/
+$color-ffffff: #ffffff;
+$color-cccccc: #cccccc;
+$color-999999: #999999;
+$color-666666: #666666;
+$color-333333: #333333;
+$color-151515: #151515;
+$color-000200: #000200;
+$color-AAAAAA: #aaaaaa;
+$color-7411A6: #8365f6;
+$color-D0021B: #d0021b;
+$color-F5A623: #f5a623;
+$color-4D317C: #4d317c;
+$color-1A1A1A: #1a1a1a;
+$color-FFBB33: #ffbb33;
+$color-F7F8FA: #f7f8fa;
+$color-DADADA: #dadada;
+$color-E5E5E5: #e5e5e5;
+$color-E1E1E1: #e1e1e1;
+$color-F05959: #f05959;
+$color-5AA800: #5aa800;
+$color-2A2A2A: #2a2a2a;
+$color-8128AE: #8128ae;
+$color-F4A21A: #f4a21a;
+$color-BEB4CF: #beb4cf;
+$color-601A86: #601a86;
+$color-ECEAF0: #eceaf0;
+$color-ABABAB: #ababab;
+
+/* 主题色 */
+$themeColor: #8365f6;
+$themeColorDeep: #4f2168;
+
+// 等UI出了整理好新的标准再替换原有语义化不明确的变量
+
+/* Font
+-------------------------- */
+$--font-path: 'fonts' !default;
+$--font-size-base: 14px !default;
+$--font-size-small: 13px !default;
+$--font-size-large: 18px !default;
+$--font-color-disabled-base: #bbb !default;
+$--font-weight-primary: 500 !default;
+$--font-line-height-primary: 24px !default;
+
+/* Colors
+-------------------------- */
+$--color-text-primary: #333333 !default;
+$--color-text-regular: #666666 !default;
+$--color-text-secondary: #999999 !default;
+$--color-text-placeholder: #919191 !default;
+$--color-text-hover: #ffbb33 !default;
+
+/* Theme
+-------------------------- */
+$--color-theme: #8365f6 !default;
+
+$--color-theme-botton: #4f2168 !default;
+
+$--icon-primary: #3d1466 !default;

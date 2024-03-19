@@ -1,0 +1,77 @@
+$reasons: (
+  (
+    reason: 'pandemic',
+    arrow-color: linear-gradient(90deg,#FFDDBD,#FFE8CA),//表格内
+    tooltip-color:#F05A05,  //单票下单地址下方提示文字颜色
+    tooltip-bg:linear-gradient(270deg,#fffaf3  30%, #ffe5cd),//单票下单地址下方图片底部渐变色
+    tooltip-bg-color: #FFF8F0,//单票下单地址下方提示文字背景色
+    dialog-header-bg:linear-gradient(360deg, rgba(255, 234, 209, 0), #ffead1), // 单票弹窗头部背景
+  ),
+  (
+    reason: 'typhoon',
+    arrow-color: linear-gradient(90deg,#A4BDE6,#D5E0F7),
+    tooltip-color:#073385,
+    tooltip-bg: linear-gradient(270deg,#eef3fc 40%, #bdd3f7),
+    tooltip-bg-color: #EEF3FC,
+    dialog-header-bg:linear-gradient(360deg,rgba(209,226,254,0.00), #d1e2fe), // 单票弹窗头部背景
+  ),
+  (
+    reason: 'rain_snow',
+    arrow-color: linear-gradient(90deg,#A4BDE6,#D5E0F7),
+    tooltip-color:#073385,
+    tooltip-bg: linear-gradient(270deg,#eef3fc 40%, #bdd3f7),
+    tooltip-bg-color: #EEF3FC,
+    dialog-header-bg:linear-gradient(360deg,rgba(209,226,254,0.00), #d1e2fe),
+  ),
+  (
+    reason: 'flood_season',
+    arrow-color: linear-gradient(90deg,#6EC8E2,#DDF7FE),
+    tooltip-color:#00617d,
+    tooltip-bg:linear-gradient(270deg,#e8faff 46%, #9fdbed),
+    tooltip-bg-color:#E8FAFF,
+    dialog-header-bg:linear-gradient(360deg,rgba(213,245,255,0.00), #d5f5ff),
+    
+  ),
+  (
+    reason: 'holiday',
+    arrow-color:  linear-gradient(90deg,#FFB6B6,#FFEBE3),
+    tooltip-color:#f15556,
+    tooltip-bg:linear-gradient(270deg,#fff9f7 46%, #ffcbcb),
+    tooltip-bg-color: #FFF7F5,
+    dialog-header-bg:linear-gradient(360deg,rgba(255,228,228,0.00), #ffcbcb),
+  ),
+  (
+    reason: 'spring_festival',
+    arrow-color:  linear-gradient(90deg,#FFB6B6,#FFEBE3),
+    tooltip-color:#f15556,
+    tooltip-bg:linear-gradient(270deg,#fff9f7 46%, #ffcbcb),
+    tooltip-bg-color: #FFF7F5,
+    dialog-header-bg:linear-gradient(360deg,rgba(255,228,228,0.00), #ffcbcb),
+  ),
+  (
+    reason: 'meeting',
+    arrow-color:  linear-gradient(90deg,#A9D1FF,#DEEEFF),
+    tooltip-color:#1236ad,
+    tooltip-bg:linear-gradient(270deg,#e8f4ff 40%, #a9ccf5),
+    tooltip-bg-color: #E3F1FF,
+    dialog-header-bg:linear-gradient(360deg,rgba(209,231,255,0.00), #d1e7ff),
+  ),
+  (
+    reason: 'other',
+    arrow-color: linear-gradient(90deg,#FFDDBD,#FFE8CA),
+    tooltip-color:#F05A05,
+    tooltip-bg:linear-gradient(270deg,#fffaf3 30%, #ffe5cd),
+    tooltip-bg-color: #FFF8F0,
+    dialog-header-bg:linear-gradient(360deg,rgba(255,233,205,0.00), #ffe9cd), // 单票弹窗头部背景
+  ),
+  (
+    reason: 'customs_warehousing',
+    arrow-color: linear-gradient(90deg,#CBC0FF,#E1DBFF),
+    tooltip-color:#5848A8,
+    tooltip-bg:linear-gradient(270deg,#f6f5ff 30%, #d3cafe),
+    tooltip-bg-color: #F2F0FF,
+    dialog-header-bg:linear-gradient(360deg,rgba(228,222,255,0.00), #d9d1ff), // 单票弹窗头部背景
+  ),
+);
+
+ 

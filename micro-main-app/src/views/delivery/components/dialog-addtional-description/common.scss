@@ -1,0 +1,200 @@
+.container {
+  height: calc(100% - 85px);
+  overflow-x: hidden;
+  overflow-y: scroll;
+  padding-right: 16px;
+
+  .icon-text {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    padding-bottom: 14px;
+
+    .iconfont {
+      margin-right: 4px;
+      color: #643789;
+      font-size: 18px;
+    }
+  }
+
+  .bold {
+    font-weight: bold;
+  }
+
+  .mark-word {
+    display: inline-block;
+    background: #f05959;
+    border-radius: 50%;
+    font-size: 12px;
+    color: #fff;
+    font-style: normal;
+    width: 16px;
+    height: 16px;
+    line-height: 16px;
+    text-align: center;
+    vertical-align: text-bottom;
+  }
+
+  .product-desc {
+    margin-top: 15px;
+    font-size: 14px;
+    color: #666;
+    line-height: 24px;
+    font-weight: initial;
+  }
+
+  .desc-text {
+    color: #666;
+    font-size: 14px;
+    line-height: 24px;
+    padding-bottom: 30px;
+  }
+
+  .inline-block {
+    display: inline-block;
+  }
+
+  .standard {
+    padding-bottom: 20px;
+
+    img {
+      width: 45%;
+      max-width: 400px;
+    }
+  }
+
+  .decimalprice {
+    width: 45%;
+    max-width: 400px;
+    display: block;
+    margin-top: 10px;
+  }
+
+  .attention-text {
+    padding-left: 28px;
+    position: relative;
+    line-height: 24px;
+    font-size: 14px;
+    color: #666;
+  }
+
+  .advantage {
+    padding-top: 20px;
+    padding-bottom: 30px;
+    display: flex;
+
+    .advantage-item_4 {
+      width: 25%;
+      float: left;
+      text-align: center;
+
+      img {
+        width: 60px;
+        height: 60px;
+      }
+
+      p {
+        margin-top: 15px;
+        font-size: 14px;
+        color: #333333;
+        text-align: center;
+        font-weight: bold;
+      }
+    }
+
+  }
+
+  .products {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+
+    .product {
+      width: 31%;
+      background: #F7F8FA;
+      text-align: center;
+      margin-right: 2%;
+      margin-bottom: 18px;
+
+      &:nth-of-type(3), &:last-of-type {
+        margin-right: 0;
+      }
+
+      .img {
+        width: 60%;
+        max-width: 200px;
+        height: calc(100% - 99px);
+        text-align: center;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+
+        img {
+          display: inline-block;
+          width: 100%;
+          max-height: 100%;
+        }
+      }
+
+      .product-name {
+        font-size: 14px;
+        color: #333333;
+        font-weight: bold;
+      }
+
+      .product-desc {
+        margin-top: 15px;
+        font-size: 12px;
+        color: #666;
+        line-height: 20px;
+        font-weight: initial;
+      }
+    }
+
+    .product_4 {
+      width: 24%;
+      background: #F7F8FA;
+      text-align: center;
+      margin-right: 1%;
+      margin-bottom: 18px;
+      padding-top: 10px;
+
+      &:last-of-type {
+        margin-right: 0;
+      }
+
+      .img {
+        width: 60%;
+        height: calc(100% - 34px);
+        text-align: center;
+        margin: 0 auto 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+
+        img {
+          display: inline-block;
+          width: 100%;
+          max-height: 100%;
+        }
+      }
+
+      .product-name {
+        font-size: 14px;
+        color: #333333;
+        font-weight: bold;
+      }
+
+      .product-desc {
+        margin-top: 15px;
+        font-size: 12px;
+        color: #666;
+        line-height: 24px;
+        font-weight: initial;
+      }
+    }
+
+  }
+
+}

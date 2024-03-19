@@ -1,0 +1,178 @@
+.netc-route-map {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url('./assets/bg.png');
+  background-color: #f3f8ff;
+
+  ::v-deep {
+    .marker-fly {
+      width: 60px;
+      height: 60px;
+      background: url('./assets/marker_fly.png') no-repeat;
+      background-size: 100%;
+    }
+
+    .marker-car {
+      width: 60px;
+      height: 60px;
+      background: url('./assets/marker_car.png') no-repeat;
+      background-size: 100%;
+    }
+
+    .text-default {
+      display: flex;
+      align-items: center;
+      padding: 0 12px;
+      height: 35px;
+      line-height: 35px;
+      font-size: 12px;
+      color: $--color-text-primary;
+      transform: none;
+    }
+
+    .marker-default {
+      &__icon {
+        width: 30px;
+        height: 40px;
+        border: none;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-image: url('./assets/icon_default.png');
+      }
+    }
+
+    .marker-delivery {
+      &__icon {
+        width: 30px;
+        height: 30px;
+        position: relative;
+        top: 2px;
+        border: none;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url('./assets/icon_delivery.png');
+      }
+    }
+
+    .marker-pickup {
+      &__icon {
+        width: 30px;
+        height: 30px;
+        position: relative;
+        top: 2px;
+        border: none;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url('./assets/icon_pickup.png');
+      }
+    }
+
+    .marker-network {
+      &__icon {
+        width: 30px;
+        height: 30px;
+        border: none;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url('./assets/icon_network.png');
+      }
+    }
+
+    .popup-default {
+      display: flex;
+      align-items: center;
+      padding: 0 12px;
+      height: 35px;
+      line-height: 35px;
+      font-size: 12px;
+      color: $--color-text-primary;
+      transform: none;
+
+      &--fly {
+        &::before {
+          content: '';
+          margin-right: 12px;
+          width: 24px;
+          height: 24px;
+          background: url('./assets/pic_fly.png') no-repeat;
+          background-size: cover;
+        }
+      }
+
+      &--car {
+        &::before {
+          content: '';
+          margin-right: 12px;
+          width: 64px;
+          height: 28px;
+          background: url('./assets/pic_car.png') no-repeat;
+          background-size: cover;
+        }
+      }
+    }
+
+    .popup-delivery,
+    .popup-pickup,
+    .popup-network {
+      display: flex;
+      padding: 0 6px 0 0;
+      height: 26px;
+      line-height: 26px;
+      font-size: 12px;
+      font-weight: bold;
+      color: $--color-text-primary;
+
+      &::before {
+        margin-right: 6px;
+        width: 26px;
+        font-size: 14px;
+        color: #ffffff;
+        text-align: center;
+        border-top-left-radius: 6px;
+        border-bottom-left-radius: 6px;
+      }
+    }
+
+    .popup-delivery::before {
+      content: '寄';
+      background-color: #333333;
+    }
+
+    .popup-pickup::before,
+    .popup-network::before {
+      content: '收';
+      background-color: #8365f6;
+    }
+
+    .amap-marker-label,
+    .amap-overlay-text-container {
+      display: flex;
+      padding: 0;
+      border: none;
+      border-radius: 6px;
+      background-color: #ffffff;
+      box-shadow: 0 1px 3px 0 rgba(53, 50, 65, 0.2);
+
+      &::after {
+        position: absolute;
+        bottom: -8px;
+        left: 50%;
+        transform: translateX(-50%);
+        content: '';
+        width: 12px;
+        height: 8px;
+        background: url('./assets/icon_arrow.png') no-repeat;
+        background-size: cover;
+      }
+    }
+
+    .amap-logo,
+    .amap-copyright {
+      display: none !important;
+    }
+  }
+}

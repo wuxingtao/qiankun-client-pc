@@ -1,0 +1,40 @@
+.el-button {
+  & + & {
+    margin-left: 12px;
+  }
+}
+//主要按钮
+.ky-button {
+  i {
+    font-size: $--font-size-base;
+    margin-right: 8px;
+  }
+  &.is-disabled {
+    background: #c1c7cf;
+    border-color: #c1c7cf;
+  }
+}
+
+.ky-button-secondary {
+  color: $--color-primary;
+  border: 1px solid $--color-primary;
+  background-color: transparent;
+  &:hover {
+    border-color: #dad1fc;
+    background-color: #f3f0fe;
+  }
+}
+
+//图标+文字按钮（无边框）
+.ky-button-icon {
+  border: unset;
+  color: $--color-primary;
+  padding: 6px 8px;
+  border-radius: 2px;
+  & > span {
+    margin-left: 8px;
+  }
+  i {
+    font-size: $--font-size-base;
+  }
+}

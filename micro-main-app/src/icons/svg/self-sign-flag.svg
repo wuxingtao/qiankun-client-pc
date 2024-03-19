@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="94px" height="18px" viewBox="0 0 94 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>编组 3备份</title>
+    <defs>
+        <linearGradient x1="100%" y1="50%" x2="1.26201923%" y2="50%" id="linearGradient-1">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#FFEBD7" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="100%" y1="50%" x2="0.628277972%" y2="50%" id="linearGradient-2">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#FFD6AF" offset="100%"></stop>
+        </linearGradient>
+        <polygon id="path-3" points="0 0 85 0 85 18 0 18"></polygon>
+        <filter x="-19.6%" y="-38.8%" width="139.3%" height="177.6%" filterUnits="objectBoundingBox" id="filter-5">
+            <feGaussianBlur stdDeviation="1" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <path d="M-1.02140518e-13,-3.2063241e-13 L8.999,3.275 L8.999,14.729 L-1.02140518e-13,11.454 L-1.02140518e-13,-3.2063241e-13 Z" id="path-6"></path>
+        <filter x="-80.6%" y="-88.3%" width="261.2%" height="276.5%" filterUnits="objectBoundingBox" id="filter-8">
+            <feGaussianBlur stdDeviation="5" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <path d="M0.52,0.281 L2.543,1.018 L2.543,4.208 L0.52,3.472 L0.52,0.281 Z" id="path-9"></path>
+        <filter x="-102.5%" y="-105.7%" width="304.9%" height="311.3%" filterUnits="objectBoundingBox" id="filter-11">
+            <feGaussianBlur stdDeviation="5" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <path d="M-1.02140518e-13,-1.50990331e-14 L8.999,3.275 L8.999,14.732 L-1.02140518e-13,11.456 L-1.02140518e-13,-1.50990331e-14 Z" id="path-12"></path>
+        <filter x="-48.3%" y="-49.8%" width="196.6%" height="199.6%" filterUnits="objectBoundingBox" id="filter-14">
+            <feGaussianBlur stdDeviation="3" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <path d="M8.99,-2.69118061e-13 L17.975,3.269 L8.984,6.542 L1.81188398e-13,3.272 L8.99,-2.69118061e-13 Z" id="path-15"></path>
+        <filter x="-24.4%" y="-68.2%" width="148.8%" height="236.3%" filterUnits="objectBoundingBox" id="filter-17">
+            <feGaussianBlur stdDeviation="2" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="-22.2%" y="-37.8%" width="144.4%" height="175.6%" filterUnits="objectBoundingBox" id="filter-18">
+            <feGaussianBlur stdDeviation="1" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <path d="M9.441,0.255 L11.491,1.001 L2.498,4.274 L0.449,3.528 L9.441,0.255 Z" id="path-19"></path>
+        <filter x="-17.4%" y="-70.1%" width="134.9%" height="240.2%" filterUnits="objectBoundingBox" id="filter-21">
+            <feGaussianBlur stdDeviation="2" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="运单管理-运单详情-待揽件-调度后" transform="translate(-912.000000, -376.000000)">
+            <g id="内容卡片" transform="translate(176.000000, 73.000000)">
+                <g id="编组-20" transform="translate(482.000000, 48.000000)">
+                    <g id="编组-6备份" transform="translate(0.000000, 252.000000)">
+                        <g id="编组-3备份" transform="translate(254.000000, 3.000000)">
+                            <g id="编组-15" transform="translate(9.000000, 0.000000)">
+                                <mask id="mask-4" fill="white">
+                                    <use xlink:href="#path-3"></use>
+                                </mask>
+                                <path stroke="url(#linearGradient-2)" d="M0.5,0.5 L84.5,0.5 L84.5,17.5 L0.5,17.5 L0.5,0.5 Z"></path>
+                                <polygon id="路径-30" fill="#F0C79F" filter="url(#filter-5)" mask="url(#mask-4)" points="0.00309542565 17.999 6.00309543 18.002 15.2823475 14.4294458 3.79950566 10.2740053"></polygon>
+                            </g>
+                            <g id="编组-14">
+                                <g id="形状结合-5" transform="translate(0.000000, 3.270000)">
+                                    <mask id="mask-7" fill="white">
+                                        <use xlink:href="#path-6"></use>
+                                    </mask>
+                                    <use id="形状结合" fill="#FFC892" xlink:href="#path-6"></use>
+                                    <path d="M7.65517885,-5.33456741 C7.99630299,4.3233424 4.80056897,9.1522973 -1.9320232,9.1522973 C-8.66461537,9.1522973 -11.6173198,6.01153153 -10.7901365,-0.27 L0.810772322,-7.84159366 L7.65517885,-5.33456741 Z" id="路径-28" fill="#FFF4EC" filter="url(#filter-8)" mask="url(#mask-7)"></path>
+                                </g>
+                                <g id="形状结合-5" transform="translate(3.000000, 4.270000)">
+                                    <mask id="mask-10" fill="white">
+                                        <use xlink:href="#path-9"></use>
+                                    </mask>
+                                    <use id="形状结合" fill="#F6A658" xlink:href="#path-9"></use>
+                                    <path d="M2.72812567,-3.27 C4.35395193,4.34486487 1.80056897,8.1522973 -4.9320232,8.1522973 C-11.6646154,8.1522973 -13.1710603,5.10153153 -9.45135806,-1 L-1.51046604,-6.04267218 L2.72812567,-3.27 Z" id="路径-28" fill="#FFF4EC" filter="url(#filter-11)" mask="url(#mask-10)"></path>
+                                </g>
+                                <g id="形状结合备份-4" transform="translate(8.999000, 3.270000)">
+                                    <mask id="mask-13" fill="white">
+                                        <use xlink:href="#path-12"></use>
+                                    </mask>
+                                    <use id="形状结合备份-3" fill="#F8C492" transform="translate(4.499500, 7.366000) scale(-1, 1) translate(-4.499500, -7.366000) " xlink:href="#path-12"></use>
+                                    <path d="M1.001,19.0517488 C2.85163829,9.09289789 6.01195189,3.83474575 10.4819408,3.27729241 C17.1869242,2.4411124 20.5942495,10.7128245 19.3905869,11.73 C18.1869242,12.7471755 10.1745218,21.2900456 8.18822768,21.2900456 C6.86403161,21.2900456 4.46828906,20.5439467 1.001,19.0517488 Z" id="路径-22" fill="#FFA88F" filter="url(#filter-14)" mask="url(#mask-13)"></path>
+                                </g>
+                                <g id="形状结合-6" transform="translate(0.003095, 0.000000)">
+                                    <mask id="mask-16" fill="white">
+                                        <use xlink:href="#path-15"></use>
+                                    </mask>
+                                    <use id="形状结合" fill="#FFEBD7" xlink:href="#path-15"></use>
+                                    <path d="M-1.81130417,3.5 C-1.12033724,3.5 8.72476552,6.43017787 13.8691496,0.555011063 C19.0135337,-5.32015575 11.7756017,-4.7335251 8.9875,-4.34396569 C7.12876552,-4.08425942 1.15648761,-2.95126717 -8.92933374,-0.944988937 C-7.39700561,2.34466318 -6.63084155,3.98948925 -6.63084155,3.98948925 C-6.63084155,3.98948925 -2.50227109,3.5 -1.81130417,3.5 Z" id="路径-29" fill="#FFFAEA" filter="url(#filter-17)" mask="url(#mask-16)"></path>
+                                    <path d="M16.639626,0.555011063 C10.1778638,5.68500369 7.96362334,8.326 9.99690457,8.478 C12.0301858,8.63 16.2934406,7.51265096 22.7866689,5.12595287 C21.8215135,2.67197691 21.1339908,1.29665929 20.7241009,1 C20.3142109,0.703340709 18.9527193,0.555011063 16.639626,0.555011063 Z" id="路径-32" fill="#FFDEC1" opacity="0.5" filter="url(#filter-18)" mask="url(#mask-16)"></path>
+                                </g>
+                                <g id="形状结合-6" transform="translate(3.003095, 1.000000)">
+                                    <mask id="mask-20" fill="white">
+                                        <use xlink:href="#path-19"></use>
+                                    </mask>
+                                    <use id="形状结合" fill="#FFD2A5" xlink:href="#path-19"></use>
+                                    <path d="M-4.62611864,-0.824454461 C-3.93515171,-0.824454461 16.4070876,5.43017787 21.5514717,-0.444988937 C26.6958558,-6.32015575 8.77560172,-5.7335251 5.9875,-5.34396569 C4.12876552,-5.08425942 -1.84351239,-3.95126717 -11.9293337,-1.94498894 C-10.3970056,1.34466318 -9.63084155,2.98948925 -9.63084155,2.98948925 C-9.63084155,2.98948925 -5.31708556,-0.824454461 -4.62611864,-0.824454461 Z" id="路径-29" fill="#FFFAEA" filter="url(#filter-21)" mask="url(#mask-20)"></path>
+                                </g>
+                                <polyline id="路径-31" stroke="#FFF7DB" points="11.0317588 10.634 13.1017329 12.4247155 16.3895663 7.91593562"></polyline>
+                            </g>
+                            <text id="需本人签收" font-family="PingFangSC-Regular, PingFang SC" font-size="12" font-weight="normal" line-spacing="12" fill="#FDA100">
+                                <tspan x="25.5" y="16">需本人签收</tspan>
+                            </text>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

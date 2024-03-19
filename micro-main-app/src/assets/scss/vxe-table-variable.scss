@@ -1,0 +1,24 @@
+@import 'vxe-table/styles/variable.scss';
+
+$vxe-font-family: 'Helvetica Neue', Helvetica, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei',
+  SimSun, sans-serif;
+
+// 修改样式变量
+$vxe-font-size: $--font-size-base;
+
+/* Color
+----------------------*/
+$vxe-font-color: $--color-text-primary;
+$vxe-primary-color: $--color-primary;
+$vxe-table-header-font-color: $--table-header-font-color;
+$vxe-table-font-color: $--color-text-primary;
+// $vxe-table-border-color: #e8eaec;
+// $vxe-table-border-radius: 4px;
+
+/* table
+----------------------*/
+$vxe-table-row-height-default: 36px;
+$vxe-table-row-line-height: 36px;
+$vxe-table-cell-padding-left: 6px;
+
+@import 'vxe-table/styles/modules.scss';

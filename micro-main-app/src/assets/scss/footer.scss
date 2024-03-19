@@ -1,0 +1,44 @@
+.footer {
+  min-width: 800px;
+  position: fixed;
+  left: 0px;
+  right: 0;
+  bottom: 0;
+  height: 62px;
+
+  display: flex;
+  align-items: center;
+  // line-height: 94px;
+  // border: 1px solid;
+  // box-shadow: 1px 0px 0px 0px #eeedf1, 0px 2px 4px 0px rgba(0, 0, 0, 0.5);
+  background-color: #fff;
+  z-index: 5;
+  .btn-wrapper {
+    margin-right: 10px;
+    margin-left: auto;
+    white-space: nowrap;
+    .el-button + .el-button {
+      margin-left: 0;
+    }
+    button {
+      margin-right: 12px;
+      & > span {
+        font-weight: bold;
+      }
+    }
+    .btn-secondary {
+      color: #8365f6;
+      border: 1px solid #8365f6;
+      background-color: transparent;
+      &:hover {
+        border-color: #dad1fc;
+        background-color: #f3f0fe;
+      }
+    }
+  }
+  .el-button {
+    padding: 11px 20px;
+    border-radius: 4px;
+    min-width: 116px;
+  }
+}

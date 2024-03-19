@@ -1,0 +1,303 @@
+@import './element-variables.scss';
+@for $i from 0 through 100 {
+  .mt_#{$i} {
+    margin-top: #{$i}px;
+  }
+
+  .mb_#{$i} {
+    margin-bottom: #{$i}px;
+  }
+
+  .mr_#{$i} {
+    margin-right: #{$i}px;
+  }
+
+  .ml_#{$i} {
+    margin-left: #{$i}px;
+  }
+
+  .mg_#{$i} {
+    margin: #{$i}px;
+  }
+
+  .pt_#{$i} {
+    padding-top: #{$i}px;
+  }
+
+  .pb_#{$i} {
+    padding-bottom: #{$i}px;
+  }
+
+  .pr_#{$i} {
+    padding-right: #{$i}px;
+  }
+
+  .pl_#{$i} {
+    padding-left: #{$i}px;
+  }
+  .ptb_#{$i} {
+    padding-top: #{$i}px;
+    padding-bottom: #{$i}px;
+  }
+  .plr_#{$i} {
+    padding-left: #{$i}px;
+    padding-right: #{$i}px;
+  }
+  .mtb_#{$i} {
+    margin-top: #{$i}px;
+    margin-bottom: #{$i}px;
+  }
+  .mlr_#{$i} {
+    margin-left: #{$i}px;
+    margin-right: #{$i}px;
+  }
+
+  .pd_#{$i} {
+    padding: #{$i}px;
+  }
+
+  .mt#{$i}--strict {
+    margin-top: #{$i}px !important;
+  }
+
+  .mb#{$i}--strict {
+    margin-bottom: #{$i}px !important;
+  }
+
+  .mr#{$i}--strict {
+    margin-right: #{$i}px !important;
+  }
+
+  .ml#{$i}--strict {
+    margin-left: #{$i}px !important;
+  }
+
+  .mg#{$i}--strict {
+    margin: #{$i}px !important;
+  }
+
+  .pt#{$i}--strict {
+    padding-top: #{$i}px !important;
+  }
+
+  .pb#{$i}--strict {
+    padding-bottom: #{$i}px !important;
+  }
+
+  .pr#{$i}--strict {
+    padding-right: #{$i}px !important;
+  }
+
+  .pl#{$i}--strict {
+    padding-left: #{$i}px !important;
+  }
+
+  .pd#{$i}--strict {
+    padding: #{$i}px !important;
+  }
+
+  .ptb_#{$i}--strict {
+    padding-top: #{$i}px !important;
+    padding-bottom: #{$i}px !important;
+  }
+}
+
+@each $fs in 10,12,13,14,16,17,18,20,22,24,26,36{
+  .fs_#{$fs}{
+    font-size: #{$fs}px;
+  }
+  .fs_#{$fs}--strict{
+    font-size: #{$fs}px !important;
+  }
+}
+
+@each $align in center,left,right{
+  .text_#{$align}{
+    text-align: $align;
+  }
+}
+
+@each $display in block,inline-block,inline,flex{
+  .#{$display} {
+    display: $display;
+  }
+}
+
+@each $ftw in 400, 500, 600, 700 {
+  .f_w_#{$ftw} {
+    font-weight: #{$ftw};
+  }
+}
+
+.f_w_b {
+  font-weight: bold;
+}
+
+@each $position in relative, absolute, fixed {
+  .p_#{$position} {
+    position: $position
+  }
+}
+
+@each $float in left, right, {
+  .fl_#{$float} {
+    float: $float
+  }
+}
+
+// 布局
+.flex {
+  display: flex;
+}
+
+.flex_1 {
+  flex: 1;
+}
+
+.flex_jc_fs {
+  justify-content: flex-start;
+}
+
+.flex_jc_fe {
+  justify-content: flex-end;
+}
+
+.flex_jc_sa {
+  justify-content: space-around;
+}
+
+.flex_jc_fe {
+  justify-content: flex-end;
+}
+
+.flex_jc_c {
+  justify-content: center;
+}
+
+.flex_jc_b {
+  justify-content: space-between;
+}
+
+.flex_w_w {
+  flex-wrap: wrap;
+}
+
+.flex_w_nw {
+  flex-wrap: nowrap;
+}
+
+.flex_d_c {
+  flex-direction: column;
+}
+
+.flex_ai_c {
+  align-items: center;
+}
+
+.flex_ai_e {
+  align-items: flex-end;
+}
+
+.flex_jc_b {
+  justify-content: space-between;
+}
+
+.flex_jc_a {
+  justify-content: space-around;
+}
+
+.flex-sk_0 {
+  flex-shrink: 0
+}
+
+.shrink_0 {
+  flex-shrink: 0;
+}
+
+.flex_column {
+  flex-direction: column;
+}
+
+.flex_row_reverse {
+  flex-direction: row-reverse;
+}
+
+.flex_center {
+  @extend .flex;
+  @extend .flex_ai_c;
+  @extend .flex_jc_c;
+}
+
+.flex-inline{
+  display:inline-flex;
+}
+
+.w_full{
+  width:100%;
+}
+
+.cursor{
+  cursor: pointer;
+}
+
+.w_a_m{
+  vertical-align: middle;
+}
+
+/* color */
+$themeColor: #8365f6;
+.theme-color{
+  color: $themeColor;
+}
+.text-color-primary{
+  color: $--color-text-primary;
+}
+
+.c_white{
+  color:#ffffff;
+}
+
+
+.c_333{
+  color: #333333;
+}
+
+.c_666{
+  color: #666666;
+}
+
+.c_999{
+  color: #999999;
+}
+
+.c_03050d{
+  color:#03050d;
+}
+
+.c_ff8038{
+  color:#FF8038;
+}
+
+.bg_white{
+  background-color: #ffffff;
+}
+
+.c_highlight{
+  color:#fe804d;
+}
+
+.ellipsis{
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.ellipsis-2{
+  -webkit-line-clamp: 2;
+  display: -webkit-box;
+  white-space: initial;
+  -webkit-box-orient: vertical;
+}
+
+.overflow_hidden{
+  overflow:hidden;
+}

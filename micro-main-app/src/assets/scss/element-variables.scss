@@ -1,0 +1,6 @@
+/* 改变 icon 字体路径变量，必需 */
+$--font-path: '~element-ui/lib/theme-chalk/fonts';
+$--checkbox-font-color: #03050D;
+$--background-color-base: $--background-color-base;
+
+@import '~element-ui/packages/theme-chalk/src/index';

@@ -1,0 +1,81 @@
+.migration-entry {
+  width: 180px;
+  height: 180px;
+  position: fixed;
+  right: 10px;
+  bottom: 35px;
+  z-index: 100;
+
+  &-count {
+    right: 0px;
+    bottom: 51px;
+    font-size: 12px;
+    color: #fff;
+    z-index: 102;
+    width: 61px;
+    text-align: center;
+    transform: scale(0.8);
+    position: absolute;
+  }
+
+  &-image {
+    width:  117px;
+    height: 107px;
+    right: 0px;
+    bottom: 0px;
+    cursor: pointer;
+    z-index: 101;
+    position: absolute;
+    background: url('./entry.png') no-repeat;
+    background-size: 117px 107px;
+    background-position: right bottom;
+  }
+
+  &-popover {
+    display: flex;
+    font-size: 12px;
+    cursor: pointer;
+    justify-items: center;
+    align-items: center;
+
+    &-text {
+      margin: 0 10px;
+      text-align: justify;
+    }
+  }
+
+  .font {
+    &-14 {
+      font-size: 14px;
+    }
+  }
+  ::v-deep {
+    .el-popover {
+      padding: 8px;
+    }
+  }
+}
+
+.migration-title {
+  height: 36px;
+  opacity: 0.9;
+  background: #fff6f6;
+  border-radius: 4px;
+  display: flex;
+  font-size: 14px;
+  color: #ff706d;
+  justify-items: center;
+  align-items: center;
+  margin: 12px 0 0;
+  padding-left: 16px;
+  &-text {
+    margin-left: 8px;
+  }
+}
+
+.migration-table {
+  &-tools {
+    display: flex;
+    justify-content: flex-end;
+  }
+}

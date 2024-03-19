@@ -1,0 +1,18 @@
+.address-book-container{
+  background-color: #f5f7fb;
+}
+.tab-wrapper{
+  background: rgba(255, 255, 255, 0.99);
+  /deep/ {
+    .el-tabs__header{
+      margin-bottom: 12px;
+    }
+    .el-tabs__item{
+      height: 40px;
+      line-height: 40px;
+    }
+    .el__tabs__active-bar{
+      height: 3px;
+    }
+  }
+}

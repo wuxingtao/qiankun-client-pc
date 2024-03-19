@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="11px" height="14px" viewBox="0 0 11 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>-mockplus-dup-|BAA84719-16F9-428B-8F7C-0903BE67A58B|始发城市</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#A48EFF" offset="0%"></stop>
+            <stop stop-color="#8B60F0" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="2、服务质量1" transform="translate(-1396.000000, -544.000000)" fill-rule="nonzero">
+            <g id="悬浮窗-2-copy-2" transform="translate(1384.000000, 536.000000)">
+                <g id="悬浮窗">
+                    <g id="-mockplus-dup-|BAA84719-16F9-428B-8F7C-0903BE67A58B|始发城市" transform="translate(12.000000, 8.000000)">
+                        <g id="始发城市">
+                            <g>
+                                <path d="M1.7338461,1.64345084 C1.68988032,1.68595022 1.6466384,1.72919214 1.60413902,1.77315791 C-0.540794649,3.99155306 -0.540794649,7.51102333 1.60413894,9.72940441 L5.49311056,13.7117811 L9.38208219,9.72940441 C11.527016,7.51100913 11.527016,3.99153886 9.38208214,1.77315778 C7.30589247,-0.374663619 3.88166735,-0.432725084 1.7338461,1.64345084 Z" id="形状结合" fill="url(#linearGradient-1)"></path>
+                                <path d="M3.22937255,5.79292052 C3.23131608,7.04503115 4.2478922,8.05853492 5.5,8.05664808 C6.75211063,8.05472539 7.7656144,7.03814927 7.7637484,5.78604147 C7.7627923,5.18510673 7.52333588,4.60911633 7.09795427,4.18465192 C6.67314448,3.75808982 6.09512292,3.51954099 5.49311103,3.52231359 C4.24101032,3.52423661 3.22750655,4.54081272 3.22937255,5.79292052 Z" id="形状" fill="#FFFFFF"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

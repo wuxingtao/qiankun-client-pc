@@ -1,0 +1,52 @@
+/deep/ .el-input__inner{
+    height: 32px;
+    border-color: #D9D9D9;
+}
+
+/deep/ .el-form-item{
+    margin-bottom: 4px;
+    display: flex;
+}
+
+/deep/ .el-form-item__label{
+   color: #333;
+   font-size: 12px
+} 
+
+/deep/ .el-form-item__content{
+    margin-left: 0 !important;
+    width: 100% !important;
+} 
+
+// label 是下拉选项
+.label-select{
+    /deep/ .el-form-item__content{
+        display: flex;
+        margin-left: 0;
+        font-size: 12px
+    }
+   .no_border{
+       width: 90px !important;
+        /deep/ .el-input__inner{
+            border: none;
+            padding: 0;
+            font-size: 12px;
+         }
+    }
+   
+}
+
+.label-input{
+    /deep/ .el-form-item__label{
+        width:90px !important;
+     } 
+}
+
+/deep/ .el-button--mini{
+    border-radius: 3px
+}
+
+/deep/ .el-select .el-input .el-select__caret{
+    font-size: 12px !important
+}
+

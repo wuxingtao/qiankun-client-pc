@@ -1,0 +1,5 @@
+export { default as FormCarType } from './carType'
+export { default as FormUserInfo } from './userInfo'
+export { default as FormGoodsInfo } from './goodsInfo'
+export { default as FormFeeInfo } from './feeInfo'
+export { default as FormDriveRemark } from './driveRemark'

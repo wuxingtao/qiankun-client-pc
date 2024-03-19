@@ -1,0 +1,9 @@
+.DS_Store
+.vscode
+node_modules
+dist
+newwebsite
+.idea
+webstorm.config.js
+
+yarn.lock

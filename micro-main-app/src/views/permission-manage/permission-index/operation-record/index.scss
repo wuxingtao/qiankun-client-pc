@@ -1,0 +1,104 @@
+.page__container {
+  background-color: #f5f7fb;
+  height: 100%;
+  min-width: 1020px;
+  .router-back {
+    &::after {
+      content: none;
+    }
+  }
+}
+
+.page__content {
+  margin-top: 8px;
+  padding: 12px 20px 20px;
+  background-color: #ffffff;
+  height: calc(100% - 77px);
+  position: relative;
+
+  // &::after {
+  //   content: '';
+  //   position: absolute;
+  //   left: 300px;
+  //   width: 1px;
+  //   top: 16px;
+  //   bottom: 16px;
+  //   background: #f1f1f5;
+  // }
+}
+
+// .left-side {
+//   min-width: 264px;
+//   padding-right: 10px;
+//   position: relative;
+//   overflow-y: auto;
+
+//   //&::after {
+//   //  content: '';
+//   //  position: absolute;
+//   //  right: 0;
+//   //  width: 1px;
+//   //  top: 16px;
+//   //  bottom: 0;
+//   //  background: #f1f1f5;
+//   //}
+// }
+
+.right-side {
+  width: 100%;
+  min-width: 820px;
+
+  .right-side-title {
+    height: 14px;
+    display: block;
+  }
+
+  .query-form {
+    overflow-x: auto;
+    .el-select {
+      width: 100%;
+    }
+    .el-row{
+      margin: auto !important;
+    }
+    .el-col{
+      &:not(:last-child){
+        min-width:220px;
+      }
+    }
+    .el-col-7 {
+      min-width: 330px !important;
+      max-width: 420px;
+    }
+    .btn-group{
+      white-space: nowrap;
+    }
+    .col-logType{
+      min-width: 265px !important;
+    }
+    .el-form-item{
+      margin-bottom: 12px;
+    }
+    /deep/ {
+      .el-cascader__tags{
+        flex-wrap: nowrap;
+        overflow: hidden;
+      }
+    }
+  }
+  .el-date-editor--daterange.el-input__inner {
+    width: 100%;
+    min-width: 226px;
+    font-size: 12px;
+  }
+
+  .el-range-separator,
+  .el-range-input {
+    height: 30px;
+    line-height: 30px;
+    font-size: 12px;
+  }
+
+
+
+}

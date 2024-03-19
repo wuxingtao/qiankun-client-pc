@@ -1,0 +1,1 @@
+export const KyIcon = () => import('./index.vue')

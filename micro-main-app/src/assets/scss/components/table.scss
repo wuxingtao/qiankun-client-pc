@@ -1,0 +1,173 @@
+/* el-table
+--------------------------- */
+.el-table {
+  & {
+    border: none;
+    .cell {
+      padding: 0 32px 0 10px;
+      line-height: 23px;
+    }
+
+    &::before {
+      height: 0; //表格下方线条
+    }
+
+    .sort-caret {
+      &.ascending {
+        top: 1px;
+      }
+
+      &.descending {
+        bottom: 0;
+      }
+    }
+
+    // .el-table__fixed-right-patch {
+    //   background-color: #f7f8fe;
+    // }
+
+    .drag-line--hide {
+      .cell {
+        &::after {
+          content: none;
+          display: none;
+        }
+      }
+    }
+  }
+
+  &.el-table--border:after,
+  &.el-table--group:after {
+    width: 0; //表格右侧线条
+  }
+
+  //表头样式
+  .el-table__fixed,
+  .el-table__fixed-right,
+  .el-table__header-wrapper {
+    thead {
+      tr {
+        & > th {
+          padding: 6px 0;
+          position: relative;
+          border-right: none;
+          // height: 34px;
+          // font-size: 12px;
+          border-right: none;
+
+          & > .cell {
+            display: flex;
+            align-items: center;
+            font-weight: bold;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+
+            .caret-wrapper {
+              height: 23px;
+            }
+          }
+
+          //自定义类名
+          &.text-center {
+            text-align: center;
+          }
+        }
+
+        //表头列分隔线
+        & > th:not(:nth-last-child(2)):not(.col-selection) .cell::after {
+          content: '';
+          position: absolute;
+          right: 0;
+          top: 50%;
+          transform: translateY(-50%);
+          border-right: 1px solid #dcdae2;
+          height: 12px;
+        }
+      }
+    }
+  }
+
+  //内容单元格样式
+  .el-table__body-wrapper,
+  .el-table__fixed,
+  .el-table__fixed-right {
+    tr {
+      &.hover-row > td {
+        background-color: #f7f6ff;
+      }
+
+      th {
+        padding: 0;
+        height: 34px;
+        font-size: 12px;
+        border-right: none;
+      }
+
+      td {
+        padding: 0;
+        height: 36px;
+        font-size: 12px;
+        border-right: none;
+      }
+    }
+  }
+
+  //固定列样式
+  .el-table__fixed,
+  .el-table__fixed-right {
+    background: white; //简单处理固定列底部穿透问题，完美方案：动态修改 el-table__fixed-body-wrapper的max-height
+    // box-shadow: none;
+    // box-shadow: 0px -10px 10px rgba(0, 0, 0, 0.12);
+    &::before {
+      height: 0;
+    }
+  }
+
+  .el-table--scrollable-x {
+    .el-table__fixed,
+    .el-table__fixed-right {
+      height: calc(100% - 16px) !important;
+    }
+  }
+
+  //表格滚动条样式
+  .el-table__body-wrapper {
+    @include scroll-bar;
+  }
+
+  .el-checkbox {
+    &__input {
+      &.is-checked,
+      &.is-indeterminate {
+        .el-checkbox__inner {
+          border-color: $--color-primary;
+        }
+      }
+    }
+  }
+
+  .el-table__fixed-right {
+    right: 0 !important;
+    box-shadow: none !important;
+  }
+}
+
+/* vxe-table
+--------------------------- */
+.vxe-table {
+  .vxe-table--header .vxe-header--row .vxe-header--column {
+    .vxe-resizable {
+      display: flex;
+      align-items: center;
+      width: 6px;
+      &.is--line:before {
+        // top: -1px;
+        // position: relative;
+        width: 1px;
+        height: 12px;
+        background-color: #d5d2de;
+      }
+    }
+  }
+}

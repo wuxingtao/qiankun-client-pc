@@ -1,0 +1,9 @@
+.page__card {
+  padding: 10px 20px;
+  border-radius: 4px;
+  background-color: #ffffff;
+
+  .page__card--top {
+    border-radius: 0 0 4px 4px;
+  }
+}

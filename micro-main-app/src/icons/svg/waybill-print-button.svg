@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="运单管理-待通知取货-查询收起" transform="translate(-914.000000, -190.000000)">
+            <g id="编组-19" transform="translate(176.000000, 130.000000)">
+                <g id="编组-18" transform="translate(738.000000, 60.000000)">
+                    <g id="删除" transform="translate(0.000000, 1.000000)">
+                        <g id="编组" transform="translate(0.500000, 0.000000)">
+                            <rect id="矩形" stroke="#8365F6" x="0.5" y="3.3125" width="14" height="7.4375" rx="2"></rect>
+                            <path d="M11.1875,0.5 L11.6875,3.25 L3.3125,3.25 L3.3125,1 L11.1875,0.5 Z" id="矩形" stroke="#8365F6"></path>
+                            <rect id="矩形" stroke="#8365F6" fill="#FFFFFF" x="3.3125" y="8" width="8.375" height="5.5625"></rect>
+                            <circle id="椭圆形" fill="#8365F6" cx="11.71875" cy="5.15625" r="1"></circle>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

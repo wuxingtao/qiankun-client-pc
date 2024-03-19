@@ -1,0 +1,60 @@
+@import './base.scss';
+
+.full-screen{
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.absolute-center{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin:auto
+}
+
+.page-bg{
+  background: url('../../assets/image/lottery/kyn_bg.png');
+  background-size: cover;
+}
+
+/* color */
+.font-color{
+  color:$lottery-ft-color;
+}
+
+/* direction */
+.inline-block{
+  display:inline-block;
+}
+
+.t_a_r {
+  text-align: right;
+}
+.t_a_j {
+  text-align: justify;
+}
+.t_a_l {
+  text-align: left;
+}
+
+.t_a_c {
+  text-align: center;
+}
+
+/* btn */
+.cursor{
+  cursor: pointer;
+}
+.btn--lottery-img{
+  width: vm(338);
+  height: vm(64);
+  @extend .cursor;
+  img{
+    width: 100%;
+  }
+}

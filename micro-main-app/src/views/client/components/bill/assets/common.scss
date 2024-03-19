@@ -1,0 +1,236 @@
+.el-tooltip__popper{
+    max-width:80%;
+}
+
+.client-tabs {
+    .el-tabs__content {
+        padding: 0 24px;
+    }
+}
+
+//表格样式
+.clinet-common-table {
+    td {
+        padding: 0;
+        height: 42px;
+    }
+    color: #333333;
+    margin-bottom: 24px;
+    border: none;
+    thead {
+        opacity: 1;
+        th {
+            background: rgba(241, 241, 245, 1);
+            box-shadow: none;
+            -webkit-box-shadow: none;
+            font-weight: bold;
+            color: #333333;
+            padding: 9px 0;
+        }
+        th:not(:last-child) .cell::after {
+            content: '';
+            display: block;
+            border-right: 1px solid #dcdae2;
+            height: 12px;
+            float: right;
+            margin-right: -12px;
+            margin-top: 6px;
+        }
+    }
+    .el-table tr td {
+        border-right: none;
+        background: rgba(255, 255, 255, 1);
+        //box-shadow: 0px -1px 0px 0px rgb(54, 39, 97), -1px 0px 0px 0px rgba(220, 218, 226, 1), 1px 0px 0px 0px rgba(220, 218, 226, 1);
+    }
+    .el-image {
+        vertical-align: middle;
+    }
+    .cell {
+        font-size: 12px;
+        padding: 0 12px !important;
+    }
+    .el-checkbox:last-of-type {
+        margin-left: 6px;
+    }
+    .el-table--striped .el-table__body tr.el-table__row--striped td {
+        background: rgba(248, 248, 250, 1) !important;
+        //box-shadow: 0px -1px 0px 0px rgba(220, 218, 226, 1), -1px 0px 0px 0px rgba(220, 218, 226, 1), 1px 0px 0px 0px rgba(220, 218, 226, 1);
+    }
+    .el-table__body tr.hover-row>td {
+        background-color: #fefadc;
+    }
+    .cell .el-button {
+        padding: 0;
+        color: #7352bf;
+    }
+    //滚动条的宽度
+    .el-table__body-wrapper::-webkit-scrollbar {
+        width: 8px;
+        height: 8px;
+    }
+    //滚动条的滑块
+    .el-table__body-wrapper::-webkit-scrollbar-thumb {
+        background-color: #dedce3;
+        border-radius: 3px;
+    }
+}
+
+// 分页
+.client-pagination {
+    margin-bottom: 15px;
+    .el-pagination.is-background {
+        margin-top: 10px;
+        text-align: right;
+        .btn-prev,
+        .btn-next {
+            border: 1px solid #dcdae2;
+            width: 28px;
+            height: 28px;
+            font-size: 12px;
+            line-height: 28px;
+            border-radius: 4px;
+            color: #666666;
+            margin: 0px;
+            margin-right: 8px;
+            background: #ffffff;
+        }
+        .el-pager>li {
+            margin: 0;
+            border: 1px solid #dcdae2;
+            width: 28px;
+            height: 28px;
+            font-size: 12px;
+            line-height: 28px;
+            border-radius: 4px;
+            color: #666666;
+            margin-right: 8px;
+            background: #ffffff;
+        }
+        .el-pager>li:not(.disabled).active {
+            background: #7352bf;
+            border: none;
+        }
+        .el-pager>li.btn-quicknext {
+            background: none;
+            border: none;
+        }
+        .el-input__inner {
+            height: 28px;
+        }
+        .el-pagination__sizes,
+        .el-select .el-input {
+            margin: 0;
+        }
+        .el-pagination__jump {
+            margin-left: 16px;
+        }
+        .el-pagination__editor.el-input {
+            margin: {
+                right: 6px;
+                left: 6px;
+            }
+        }
+    }
+}
+
+.client-container {
+    .el-button {
+        padding: 9px 12px;
+        font-size: 12px;
+        span {
+            font-size: 12px;
+        }
+    }
+    .el-button--primary {
+        background-color: #7352bf;
+        border-color: #7352bf;
+    }
+    .el-input__inner {
+        height: 32px;
+        line-height: 32px;
+    }
+    .el-radio__input.is-checked .el-radio__inner {
+        border-color: #7352bf;
+        background: #7352bf;
+    }
+}
+
+//dialog对话框
+.clientdialog {
+    .el-button {
+        // padding: 9px 12px;
+        width: 72px;
+        font-size: 12px;
+        span {
+            font-size: 12px;
+        }
+    }
+    .el-button--primary {
+        background-color: #7352bf;
+        border-color: #7352bf;
+        margin-left: 16px;
+    }
+    .el-input__inner {
+        height: 32px;
+        line-height: 32px;
+        padding: 5px 8px;
+    }
+    .el-textarea__inner {
+        padding: 5px 8px;
+    }
+    .el-dialog {
+        // position: absolute;
+        // top: 50%;
+        // left: 50%;
+        // margin: 0 !important;
+        // transform: translate(-50%, -50%);
+        max-height: calc(100% - 30px);
+        max-width: calc(100% - 30px);
+        display: flex;
+        flex-direction: column;
+        >.el-dialog__body {
+            overflow-y: auto;
+            overflow-x: hidden;
+            color: #666666;
+            padding: 0 15px 0 0;
+            margin: 16px 0px 16px 20px;
+        }
+        .el-dialog__header {
+            border-bottom: 1px solid #f1f1f5;
+            padding: 12px 0 12px 20px;
+            .el-dialog__headerbtn {
+                top: 15px;
+            }
+        }
+        .el-dialog__title {
+            font-family: PingFangSC-Semibold;
+            font-size: 14px;
+            font-weight: bold;
+            color: #333333;
+        }
+        .el-dialog__footer {
+            border-top: 1px solid #f1f1f5;
+            padding: 10px 20px 10px;
+        }
+    }
+    //滚动条的宽度
+    .el-dialog__body::-webkit-scrollbar {
+        width: 8px;
+        height: 8px;
+    }
+    //滚动条的滑块
+    .el-dialog__body::-webkit-scrollbar-thumb {
+        background-color: #dedce3;
+        border-radius: 3px;
+    }
+}
+
+// //messagebox弹框样式
+// .el-message-box__title {
+//     font-size: 14px;
+//     font-weight: bold;
+//     color: #333333;
+// }
+// .el-message-box {
+//     width: 350px;
+// }

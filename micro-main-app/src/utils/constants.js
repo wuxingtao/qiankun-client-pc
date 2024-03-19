@@ -1,0 +1,6 @@
+export const CAPTCHA_TYPE = {
+  REGISTER: 6,
+  LOGIN: 7,
+  FORGET_PASSWORD: 8,
+  RESET_PASSWORD: 9
+}

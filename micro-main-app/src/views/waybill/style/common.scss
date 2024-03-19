@@ -1,0 +1,91 @@
+$reasons: (
+  (
+    reason: 'pandemic',
+    backgroundColor: #fff8f0,
+    backgroundImage: linear-gradient(270deg, #fffaf3, #fff5ec 40%, #ffe5cd),
+    closeColor: #f05a05
+  ),
+  (
+    reason: 'typhoon',
+    backgroundColor: #eef3fc,
+    backgroundImage: linear-gradient(270deg, #eef3fc 20%, #eef3fc, #bdd3f7),
+    closeColor: #073385
+  ),
+  (
+    reason: 'rain_snow',
+    backgroundColor: #eef3fc,
+    backgroundImage: linear-gradient(270deg, #eef3fc, #eef3fc 40%, #bdd3f7),
+    closeColor: #073385
+  ),
+  (
+    reason: 'flood_season',
+    backgroundColor: #e8faff,
+    backgroundImage: linear-gradient(270deg, #e8faff, #e8faff 40%, #9fdbed),
+    closeColor: #00617d
+  ),
+  (
+    reason: 'holiday',
+    backgroundColor: #fff7f5,
+    backgroundImage: linear-gradient(270deg, #fff9f7, #fff7f5 30%, #ffcbcb),
+    closeColor: #ef0f11
+  ),
+  (
+    reason: 'spring_festival',
+    backgroundColor: #fff7f5,
+    backgroundImage: linear-gradient(270deg, #fff9f7, #fff7f5 40%, #ffcbcb),
+    closeColor: #ef0f11
+  ),
+  (
+    reason: 'meeting',
+    backgroundColor: #e3f1ff,
+    backgroundImage: linear-gradient(270deg, #e8f4ff 20%, #e0efff, #a9ccf5),
+    closeColor: #1236ad
+  ),
+  (
+    reason: 'other',
+    backgroundColor: #fff8f0,
+    backgroundImage: linear-gradient(270deg, #fffaf3, #fff5ec 40%, #ffe5cd),
+    closeColor: #F05A05
+  ),
+  (
+    reason: 'customs_warehousing',
+    backgroundColor: #f2f0ff,
+    backgroundImage: linear-gradient(270deg, #f6f5ff 20%, #efecff, #d1c7ff),
+    closeColor: #5848A8
+  )
+);
+
+/* 取派展示弹窗样式 */
+
+@each $item in $reasons {
+  $reason: map-get(
+    $map: $item,
+    $key: reason
+  );
+  $backgroundImage: map-get(
+    $map: $item,
+    $key: backgroundImage
+  );
+  $backgroundColor: map-get(
+    $map: $item,
+    $key: backgroundColor
+  );
+  $closeColor: map-get(
+    $map: $item,
+    $key: closeColor
+  );
+  .affect_#{$reason} {
+    background-color: $backgroundColor;
+    background-image: $backgroundImage;
+    > div,
+    &_icon {
+      background-image: url('~@assets/image/delivery/affect-reason/#{$reason}.png');
+    }
+
+    > p,
+    .icon-close {
+      color: $closeColor;
+    }
+  }
+}
+

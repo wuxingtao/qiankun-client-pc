@@ -1,0 +1,115 @@
+.page-style1 {
+  .el-input-group--append .el-input__suffix {
+    right: 6px;
+    transition: none;
+  }
+  .el-input__suffix {
+    right: 0px;
+    .el-input__count .el-input__count-inner {
+      padding: 0;
+    }
+    .el-input__icon {
+      line-height: 32px;
+    }
+  }
+  input {
+    font-size: $--input-font-size;
+    border: none !important;
+    border-bottom: 1px solid #e3e3e3 !important;
+    border-radius: 0 !important;
+    padding: 0 !important;
+    padding-right: 15px !important;
+    font-weight: 600 !important;
+    // line-height: 12px !important;
+    &:focus {
+      border-bottom: 1px solid #834eff !important;
+    }
+  }
+  ::-webkit-input-placeholder {
+    font-weight: normal;
+    color: #c4c4c4 !important;
+  }
+  .el-input__inner {
+    height: 32px;
+    line-height: 32px;
+  }
+  .el-input.is-disabled .el-input__inner {
+    background-color: #f9f9f9;
+    color: #c4c4c4;
+  }
+  .el-form-item.is-error .el-input__inner {
+    border-color: #ff7374 !important;
+  }
+  .el-form-item__content {
+    line-height: 32px;
+  }
+  .el-form-item__label {
+    line-height: 1 !important;
+    padding-bottom: 3px !important;
+    padding-bottom: 0;
+  }
+  .el-checkbox__inner {
+    border: 1px solid #666666;
+    border-radius: 2px;
+  }
+  .el-input-group__append {
+    border: none !important;
+    border-radius: 0;
+    border-bottom: 1px solid #e3e3e3 !important;
+    background: none !important;
+    padding: 0;
+  }
+
+  .el-select {
+    width: 100%;
+  }
+
+  .el-autocomplete {
+    width: 100%;
+  }
+
+  .el-form-item {
+    margin-bottom: 16px;
+  }
+
+  //.el-form-item__error {
+  //  z-index: 9;
+  //  padding: 3px 8px !important;
+  //  color: #ff7374 !important;
+  //  line-height: 20px;
+  //  background: #ffe6e3;
+  //  border: 1px solid #ffabaa;
+  //  border-radius: 4px;
+  //  top: 115%;
+  //  &::after {
+  //    content: '';
+  //    background: url('~@assets/image/delivery/arrow-red.svg');
+  //    width: 12px;
+  //    height: 8px;
+  //    position: absolute;
+  //    top: -7px;
+  //    left: 20px;
+  //  }
+  //}
+  .el-form-item__error {
+    color: #ff7374;
+  }
+
+  .el-form-item.form-item-warning {
+    .el-input__inner {
+      border-color: #e3e3e3 !important;
+    }
+
+    .el-form-item__error {
+      width: 500px;
+      font-family: 'iconfont', serif;
+      color: #ff8038;
+
+      &::before {
+        content: '\e940';
+        position: relative;
+        top: 1px;
+      }
+    }
+  }
+}

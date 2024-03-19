@@ -1,0 +1,113 @@
+@mixin scroll-bar {
+  &::-webkit-scrollbar {
+    width: 7px;
+    height: 7px;
+    // background: transparent;
+  }
+  &::-webkit-scrollbar-thumb {
+    background-color: #c8c6d7;
+    border-radius: 3px;
+    border: 1px solid transparent;
+    background-clip: padding-box;
+    &:hover {
+      background-color: #bfbfbf;
+    }
+  }
+  &::-webkit-scrollbar-button {
+    width: 0;
+    height: 0;
+    display: none;
+  }
+  &::-webkit-scrollbar-corner {
+    background-color: transparent;
+  }
+}
+
+@mixin scroll-bar-global {
+  ::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+    // background: transparent;
+  }
+  ::-webkit-scrollbar-thumb {
+    background-color: #dedce3;
+    border-radius: 3px;
+    border: 1px solid transparent;
+    background-clip: padding-box;
+    &:hover {
+      background-color: #bfbfbf;
+    }
+  }
+}
+
+@mixin middleCenter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@mixin clearfix {
+  border: 1px solid;
+  zoom: 1;
+  &:after {
+    content: '';
+    height: 0;
+    line-height: 0;
+    display: block;
+    visibility: hidden;
+    clear: both;
+  }
+}
+
+@mixin loading {
+  .el-loading-mask {
+    .el-loading-spinner .circular {
+      display: none;
+    }
+
+    .el-loading-spinner {
+      background: url(~@/assets/image/loading.gif) no-repeat !important;
+      background-size: 48px 48px;
+      width: 120px;
+      height: 60px;
+      position: absolute;
+      top: 40%;
+      left: calc(50% - 60px);
+      .el-loading-text {
+        font-size: 12px;
+        position: absolute;
+        bottom: -26px;
+        text-align: center;
+        width: 100%;
+        color: #999;
+      }
+    }
+  }
+}
+
+//小三角形 eg:triangle(10px,#333)
+@mixin triangle($width, $color, $direction: right, $thin: 1px) {
+  border: {
+    top: $thin solid $color;
+    right: $thin solid $color;
+  }
+  width: $width;
+  height: $width;
+  $deg: 45deg;
+  @if $direction==up {
+    $deg: -45deg;
+  } @else if $direction==down {
+    $deg: 135deg;
+  } @else if $direction==left {
+    $deg: -135deg;
+  }
+  transform: rotate($deg);
+}
+
+//超出指定行后，显示省略号
+@mixin overflow-ellipsis($lines: 1) {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: $lines;
+  overflow: hidden;
+}

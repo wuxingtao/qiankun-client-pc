@@ -1,0 +1,101 @@
+$lottery-ft-color:#561c26;
+
+$vm_base: 2160;
+
+@function vm($px){
+  @return ($px/$vm_base) * 100vw;
+}
+
+
+// 布局
+.flex {
+  display: flex;
+}
+
+.flex_1 {
+  flex: 1;
+}
+
+.flex_jc_fs {
+  justify-content: flex-start;
+}
+
+.flex_jc_fe {
+  justify-content: flex-end;
+}
+
+.flex_jc_sa {
+  justify-content: space-around;
+}
+
+.flex_jc_fe {
+  justify-content: flex-end;
+}
+
+.flex_jc_c {
+  justify-content: center;
+}
+
+.flex_jc_b {
+  justify-content: space-between;
+}
+
+.flex_w_w {
+  flex-wrap: wrap;
+}
+
+.flex_w_nw {
+  flex-wrap: nowrap;
+}
+
+.flex_d_c {
+  flex-direction: column;
+}
+
+.flex_ai_c {
+  align-items: center;
+}
+
+.flex_ai_e {
+  align-items: flex-end;
+}
+
+.flex_jc_b {
+  justify-content: space-between;
+}
+
+.flex_jc_a {
+  justify-content: space-around;
+}
+
+.flex-sk_0 {
+  flex-shrink: 0
+}
+
+.shrink_0 {
+  flex-shrink: 0;
+}
+
+.flex_column {
+  flex-direction: column;
+}
+
+.a_s_c {
+  align-self: center;
+}
+
+.flex_row_reverse {
+  flex-direction: row-reverse;
+}
+
+.flex_center {
+  @extend .flex;
+  @extend .flex_ai_c;
+  @extend .flex_jc_c;
+}
+
+.flex_ai_c_jc_b {
+  @extend .flex;
+  @extend .flex_ai_c;
+  @extend .flex_jc_b;
+}

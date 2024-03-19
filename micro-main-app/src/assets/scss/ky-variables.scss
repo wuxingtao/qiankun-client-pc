@@ -1,0 +1,40 @@
+/* Font-size
+------------------------------*/
+$--font-size-base: 13px;
+$--font-size-small: 12px;
+$--font-size-medium: 14px;
+$--font-size-large: 16px;
+$--font-size-title: 15px;
+$--input-font-size: $--font-size-base;
+$--checkbox-font-size: $--font-size-base;
+$--select-input-font-size: $--font-size-base;
+
+/* Color 
+------------------------------*/
+$--color-primary: #8365f6;
+$--color-text-primary: #03050d;
+$--color-text-regular: #666666;
+$--color-text-secondary: #999999;
+$--color-text-secondary2: #8f8fa8;
+$--color-warning: #ff8038;
+$--color-tip: #8f8fa8;
+$--background-color-base: #F5F7FA;
+
+
+/* Input
+-------------------------- */
+$--input-font-color: $--color-text-primary;
+
+/* Button 
+------------------------------*/
+$--button-padding-vertical: 8px;
+
+/* Table
+------------------------------*/
+$--table-header-background-color: #f7f8fe;
+$--table-header-font-color: #333333;
+$--table-font-color: $--color-text-primary;
+
+/* Tab
+-------------------------- */
+$--tab-font-size: 15px;
